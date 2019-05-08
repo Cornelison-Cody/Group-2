@@ -1,3 +1,9 @@
+
+let colorBox = document.getElementsByClassName('one');
+
+colorBox[0].addEventListener("mouseover", changeColor());
+
+
 let changeColor = function () {
     let colorArray = ["grey", "red", "blue", "green", "purple", "orange"];
 
